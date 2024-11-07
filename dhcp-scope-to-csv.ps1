@@ -1,5 +1,5 @@
 # Define the DHCP server name
-$serverName = "KRISOB29-DH-01"
+$serverName = Read-Host -Prompt “Enter servername”
 
 # Define the output CSV file path
 $outputFile = "C:\scripts\DHCP_Leases.csv"
